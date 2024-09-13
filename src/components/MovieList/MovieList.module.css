@@ -1,0 +1,19 @@
+.movieGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.itemGallery {
+  padding-top: 25px;
+  border: 1px solid #7c7676d2;
+  width: calc((100% - 50px) / 3);
+  text-align: center;
+  border-radius: 5px;
+}
+.itemGallery:hover,
+.itemGallery:focus {
+  box-shadow: rgb(150, 52, 168) 0px 0px 16px 0px;
+}

@@ -1,0 +1,8 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.castItem {
+  width: calc((100% - 100px) / 4);
+}

@@ -1,0 +1,32 @@
+.container {
+  max-width: 1180px;
+}
+.title {
+  text-align: center;
+}
+
+.cardWrapper {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.movieTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.movieDescription {
+  font-size: 14px;
+  color: #666;
+  margin: 0 10px;
+}
+
+.link {
+  margin-bottom: 10px;
+}

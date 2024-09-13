@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  background-color: rgba(90, 65, 121, 0.694);
+}
+.link {
+  padding: 15px 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link:active,
+.link:hover {
+  color: rgba(86, 183, 50, 0.6);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
